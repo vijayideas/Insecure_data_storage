@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Insecure_data_storage</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+</resources>

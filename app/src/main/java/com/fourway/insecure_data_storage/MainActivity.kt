@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         val email : String = editEmail.text.toString()
         val username : String = editUsername.text.toString()
 
-        val fileOutputStream : FileOutputStream = openFileOutput(name, Context.MODE_PRIVATE)
+        val fileOutputStream : FileOutputStream = openFileOutput(name, Context.MODE_WORLD_READABLE)
 
         val pw = PrintWriter(fileOutputStream)
 
